@@ -1,0 +1,7 @@
+﻿{
+  "name": "Engine.Unity",
+  "rootNamespace": "Engine",
+  "references": [],
+  "includePlatforms": [],
+  "excludePlatforms": []
+}

@@ -1,4 +1,4 @@
-﻿namespace Ads
+﻿namespace Engine.Core.Ads
 {
     public enum RewardType
     {

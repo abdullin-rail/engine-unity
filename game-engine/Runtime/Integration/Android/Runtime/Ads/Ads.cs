@@ -1,5 +1,5 @@
 ﻿using System;
-namespace gameengine.Runtime.Integration.Android.Runtime.Ads
+namespace Engine.Runtime.Integration.Android.Runtime.Ads
 {
     public class Ads
     {

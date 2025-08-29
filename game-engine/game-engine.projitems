@@ -9,7 +9,6 @@
     <Import_RootNamespace>game-engine</Import_RootNamespace>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="$(MSBuildThisFileDirectory)MyClass.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Runtime\Core\Ads\IAds.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Runtime\Integration\Android\Runtime\Ads\Ads.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Runtime\Core\Ads\RewardType.cs" />
@@ -30,6 +29,6 @@
   <ItemGroup>
     <None Include="$(MSBuildThisFileDirectory)Runtime\Integration\Android\Engine.Unity.Android.asmdef" />
     <None Include="$(MSBuildThisFileDirectory)Runtime\Integration\WebGL.Yandex\Engine.Unity.WebGL.Yandex.asmdef" />
-    <None Include="$(MSBuildThisFileDirectory)package.json" />
+    <None Include="$(MSBuildThisFileDirectory)Runtime\Engine.Unity.asmdef" />
   </ItemGroup>
 </Project>
