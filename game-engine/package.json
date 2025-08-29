@@ -1,0 +1,8 @@
+﻿{
+  "name": "com.ragervik-games.game-engine",
+  "displayName": "Ragervik Engine (Unity)",
+  "version": "1.0.0",
+  "unity": "2022.3",
+  "description": "Reusable engine package for Unity games.",
+  "author": { "name": "Ragervik Games" }
+}
