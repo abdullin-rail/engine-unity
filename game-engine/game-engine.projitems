@@ -9,26 +9,29 @@
     <Import_RootNamespace>game-engine</Import_RootNamespace>
   </PropertyGroup>
   <ItemGroup>
+    <None Include="$(MSBuildThisFileDirectory)Runtime\Integration.meta" />
+    <None Include="$(MSBuildThisFileDirectory)Runtime\Engine.Unity.asmdef.meta" />
+    <None Include="$(MSBuildThisFileDirectory)Runtime\Core.meta" />
+    <None Include="$(MSBuildThisFileDirectory)Runtime\UI.meta" />
+    <None Include="$(MSBuildThisFileDirectory)Runtime\Gameplay.meta" />
+    <None Include="$(MSBuildThisFileDirectory)Runtime\Engine.Unity.asmdef" />
+    <None Include="$(MSBuildThisFileDirectory)Runtime\Core\Ads.meta" />
+    <None Include="$(MSBuildThisFileDirectory)Runtime\Core\Ads\IAds.cs.meta" />
+    <None Include="$(MSBuildThisFileDirectory)Runtime\Core\Ads\RewardType.cs.meta" />
+    <None Include="$(MSBuildThisFileDirectory)Runtime\Integration\WebGL.Yandex.meta" />
+    <None Include="$(MSBuildThisFileDirectory)Runtime\Integration\Android.meta" />
+    <None Include="$(MSBuildThisFileDirectory)Runtime\Integration\WebGL.Yandex\Engine.Unity.WebGL.Yandex.asmdef" />
+    <None Include="$(MSBuildThisFileDirectory)Runtime\Integration\WebGL.Yandex\Runtime.meta" />
+    <None Include="$(MSBuildThisFileDirectory)Runtime\Integration\WebGL.Yandex\Engine.Unity.WebGL.Yandex.asmdef.meta" />
+    <None Include="$(MSBuildThisFileDirectory)Runtime\Integration\Android\Engine.Unity.Android.asmdef" />
+    <None Include="$(MSBuildThisFileDirectory)Runtime\Integration\Android\Engine.Unity.Android.asmdef.meta" />
+    <None Include="$(MSBuildThisFileDirectory)Runtime\Integration\Android\Runtime.meta" />
+    <None Include="$(MSBuildThisFileDirectory)Runtime\Integration\Android\Runtime\Ads.meta" />
+    <None Include="$(MSBuildThisFileDirectory)Runtime\Integration\Android\Runtime\Ads\Ads.cs.meta" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="$(MSBuildThisFileDirectory)Runtime\Core\Ads\RewardType.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Runtime\Core\Ads\IAds.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Runtime\Integration\Android\Runtime\Ads\Ads.cs" />
-    <Compile Include="$(MSBuildThisFileDirectory)Runtime\Core\Ads\RewardType.cs" />
-  </ItemGroup>
-  <ItemGroup>
-    <Folder Include="$(MSBuildThisFileDirectory)Runtime\" />
-    <Folder Include="$(MSBuildThisFileDirectory)Runtime\Core\" />
-    <Folder Include="$(MSBuildThisFileDirectory)Runtime\Integration\" />
-    <Folder Include="$(MSBuildThisFileDirectory)Runtime\UI\" />
-    <Folder Include="$(MSBuildThisFileDirectory)Runtime\Gameplay\" />
-    <Folder Include="$(MSBuildThisFileDirectory)Runtime\Integration\Android\" />
-    <Folder Include="$(MSBuildThisFileDirectory)Runtime\Integration\Android\Runtime\" />
-    <Folder Include="$(MSBuildThisFileDirectory)Runtime\Integration\WebGL.Yandex\" />
-    <Folder Include="$(MSBuildThisFileDirectory)Runtime\Integration\WebGL.Yandex\Runtime\" />
-    <Folder Include="$(MSBuildThisFileDirectory)Runtime\Core\Ads\" />
-    <Folder Include="$(MSBuildThisFileDirectory)Runtime\Integration\Android\Runtime\Ads\" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="$(MSBuildThisFileDirectory)Runtime\Integration\Android\Engine.Unity.Android.asmdef" />
-    <None Include="$(MSBuildThisFileDirectory)Runtime\Integration\WebGL.Yandex\Engine.Unity.WebGL.Yandex.asmdef" />
-    <None Include="$(MSBuildThisFileDirectory)Runtime\Engine.Unity.asmdef" />
   </ItemGroup>
 </Project>
